@@ -1,11 +1,11 @@
 page 81007 "DET Find and Replace"
 {
-    ApplicationArea = All;
     Caption = 'Find and Replace';
     PageType = Worksheet;
     SourceTable = "DET Find and Replace";
     InsertAllowed = false;
     DeleteAllowed = false;
+    UsageCategory = None;
 
     layout
     {
@@ -26,21 +26,25 @@ page 81007 "DET Find and Replace"
             {
                 ToolTip = 'Find What';
                 Caption = 'Find What';
+                ApplicationArea = All;
             }
             field(ReplaceWith; ReplaceWith)
             {
                 ToolTip = 'Replace With';
                 Caption = 'Replace With';
+                ApplicationArea = All;
             }
             field(MatchCase; MatchCase)
             {
                 ToolTip = 'Match Case';
                 Caption = 'Match Case';
+                ApplicationArea = All;
             }
             field(MatchEntireFieldValue; MatchEntireFieldValue)
             {
                 ToolTip = 'Match Entire Field Value';
                 Caption = 'Match Entire Field Value';
+                ApplicationArea = All;
             }
             repeater(General)
             {
@@ -48,21 +52,25 @@ page 81007 "DET Find and Replace"
                 {
                     ToolTip = 'Specifies the value of the Record PK field.';
                     Editable = false;
+                    ApplicationArea = All;
                 }
                 field("Field Number"; Rec."Field Number")
                 {
                     ToolTip = 'Specifies the value of the Field Number field.';
                     Editable = false;
+                    ApplicationArea = All;
                 }
                 field("Field Caption"; Rec."Field Caption")
                 {
                     ToolTip = 'Specifies the value of the Field Caption field.';
                     Editable = false;
+                    ApplicationArea = All;
                 }
                 field("Field Value"; Rec."Field Value")
                 {
                     ToolTip = 'Specifies the value of the Field Value field.';
                     Style = Strong;
+                    ApplicationArea = All;
                     trigger OnValidate()
                     begin
                         OnFieldEdit(false, Rec."Field Number", Rec."Field Value");
@@ -105,16 +113,6 @@ page 81007 "DET Find and Replace"
             }
 
         }
-        area(Promoted)
-        {
-            actionref(FindAllRef; FindAll)
-            {
-            }
-            actionref(FindReplaceAllRef; FindReplaceAll)
-            {
-            }
-        }
-
     }
 
     local procedure FindAndReplaceAll(Replace: Boolean)
