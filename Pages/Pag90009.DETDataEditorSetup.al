@@ -1,4 +1,4 @@
-page 81009 "DET Data Editor Setup"
+page 90009 "DET Data Editor Setup"
 {
     ApplicationArea = All;
     Caption = 'Data Editor Setup';

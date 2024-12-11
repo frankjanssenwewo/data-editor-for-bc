@@ -1,4 +1,4 @@
-table 81004 "DET Data Editor Setup"
+table 90004 "DET Data Editor Setup"
 {
     Caption = 'Data Editor Setup';
     DataClassification = CustomerContent;

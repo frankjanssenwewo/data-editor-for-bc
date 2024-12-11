@@ -1,4 +1,4 @@
-enum 81000 "DET Log Action Type"
+enum 90000 "DET Log Action Type"
 {
     Extensible = true;
 

@@ -1,4 +1,4 @@
-table 81003 "DET Query Preset"
+table 90003 "DET Query Preset"
 {
     Caption = 'Preset';
     DataClassification = CustomerContent;

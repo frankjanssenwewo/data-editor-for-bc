@@ -1,4 +1,4 @@
-table 81001 "DET Field"
+table 90001 "DET Field"
 {
     Caption = 'Field';
     DataClassification = CustomerContent;

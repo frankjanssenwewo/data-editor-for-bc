@@ -1,4 +1,4 @@
-page 81005 "DET Select Fields"
+page 90005 "DET Select Fields"
 {
     Caption = 'Select Fields';
     PageType = List;

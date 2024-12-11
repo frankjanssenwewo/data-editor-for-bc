@@ -1,4 +1,4 @@
-page 81002 "DET Edit Value"
+page 90002 "DET Edit Value"
 {
 
     Caption = 'Edit Value';

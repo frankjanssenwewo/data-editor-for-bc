@@ -1,4 +1,4 @@
-enum 81001 "DET Import On Find"
+enum 90001 "DET Import On Find"
 {
     Extensible = true;
 

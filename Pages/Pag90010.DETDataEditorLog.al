@@ -1,4 +1,4 @@
-page 81010 "DET Data Editor Log"
+page 90010 "DET Data Editor Log"
 {
     ApplicationArea = All;
     Caption = 'Data Editor Log';

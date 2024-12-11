@@ -1,4 +1,4 @@
-page 81006 "DET Key"
+page 90006 "DET Key"
 {
     ApplicationArea = All;
     Caption = 'Key';
